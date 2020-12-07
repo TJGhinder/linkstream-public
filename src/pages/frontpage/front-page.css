@@ -3,15 +3,6 @@
 a{text-decoration: none;color: var(--buttonText);}
 h1{margin: 0; padding: 0; margin-top:-1rem; margin-bottom: 1rem;}
 
-html {
-    min-height: 100%;
-}
-body {
-    min-height: 100%;
-    margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
 
 .style-1{
     --gradient: linear-gradient(90deg, #363553 0%, #903775 50%, #E8458B 100%);
@@ -84,6 +75,18 @@ body {
 }
 
 
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background: var(--gradient);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
 .clickable{
     cursor: pointer;
     transition: transform 20ms linear 0ms;
@@ -98,18 +101,16 @@ body {
     display: flex;
     justify-content: center;
     backdrop-filter: blur(8px);
-    min-height: 100% !important;
-    background-attachment: fixed;
 }
 
-.body-container.style-1{background: linear-gradient(45deg, #363553 0%, #453775 50%, #E8458B 100%) !important;}
-.body-container.style-2{background: linear-gradient(45deg, #274B74 0%, #8233C5 50%, #E963FD 100%) !important;}
-.body-container.style-3{background: linear-gradient(45deg, #276174 0%, #33C58E 50%, #63FD88 100%) !important;}
-.body-container.style-4{background: linear-gradient(45deg, #EA5A6F 0%, #DE791E 50%, #FCCF3A 100%) !important;}
-.body-container.style-5{background: linear-gradient(45deg, #879AF2 0%, #D3208B 50%, #FDA000 100%) !important;}
-.body-container.style-6{background: linear-gradient(45deg, #F17B41 0%, #E05BA2 50%, #CD4BC9 100%) !important;}
-.body-container.style-7{background: linear-gradient(45deg, #5C2774 0%, #335CC5 50%, #637FFD 100%) !important;}
-.body-container.style-8{background: linear-gradient(45deg, #8929AD 0%, #436AAC 50%, #43B7B8 100%) !important;}
+.body-container.style-1{background: linear-gradient(45deg, #363553 0%, #453775 50%, #E8458B 100%);}
+.body-container.style-2{background: linear-gradient(45deg, #274B74 0%, #8233C5 50%, #E963FD 100%);}
+.body-container.style-3{background: linear-gradient(45deg, #276174 0%, #33C58E 50%, #63FD88 100%);}
+.body-container.style-4{background: linear-gradient(45deg, #EA5A6F 0%, #DE791E 50%, #FCCF3A 100%);}
+.body-container.style-5{background: linear-gradient(45deg, #879AF2 0%, #D3208B 50%, #FDA000 100%);}
+.body-container.style-6{background: linear-gradient(45deg, #F17B41 0%, #E05BA2 50%, #CD4BC9 100%);}
+.body-container.style-7{background: linear-gradient(45deg, #5C2774 0%, #335CC5 50%, #637FFD 100%);}
+.body-container.style-8{background: linear-gradient(45deg, #8929AD 0%, #436AAC 50%, #43B7B8 100%);}
 
 .top-layer{
     width: stretch;
