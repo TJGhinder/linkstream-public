@@ -91,9 +91,11 @@ export default function LinkStreamFrontPage() {
                 </div>
 
 
-                <div className='bottom-layer'>
+                <div className='particle-layer'>
                     <ParticleComponent />
                 </div>
+
+                <div className='background-layer' />
 
             </div>
         </div >

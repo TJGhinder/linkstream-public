@@ -107,11 +107,7 @@ body {
 .body-container.style-2{background: linear-gradient(45deg, #274B74 0%, #8233C5 50%, #E963FD 100%);}
 .body-container.style-3{background: linear-gradient(45deg, #276174 0%, #33C58E 50%, #63FD88 100%);}
 .body-container.style-4{background: linear-gradient(45deg, #EA5A6F 0%, #DE791E 50%, #FCCF3A 100%);}
-.body-container.style-5{background: linear-gradient(45deg, #879AF2 0%, #D3208B 50%, #FDA000 100%) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;;}
+.body-container.style-5{background: linear-gradient(45deg, #879AF2 0%, #D3208B 50%, #FDA000 100%);}
 .body-container.style-6{background: linear-gradient(45deg, #F17B41 0%, #E05BA2 50%, #CD4BC9 100%);}
 .body-container.style-7{background: linear-gradient(45deg, #5C2774 0%, #335CC5 50%, #637FFD 100%);}
 .body-container.style-8{background: linear-gradient(45deg, #8929AD 0%, #436AAC 50%, #43B7B8 100%);}
@@ -119,7 +115,28 @@ body {
 .top-layer{
     width: stretch;
     height: stretch;
+    z-index: 2;
+}
+
+.particle-layer{
     z-index: 1;
+}
+
+.background-layer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height:100vh;
+    z-index: 0;
+    background-color: var(--gradient);
+    visibility: hidden;
+}
+
+@Media(max-width:600px){
+    .background-layer{
+        visibility: visible;
+    }
 }
 
 .ui-container{
