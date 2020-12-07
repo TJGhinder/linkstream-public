@@ -28,7 +28,7 @@ export default function LinkStreamFrontPage() {
     ]
 
     return (
-        <div className='body-container style-2'>
+        <div className='body-container style-5'>
 
             <div className='ui-container'>
                 <div className='top-layer'>
