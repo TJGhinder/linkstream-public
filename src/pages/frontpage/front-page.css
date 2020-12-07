@@ -127,16 +127,10 @@ body {
     top: 0;
     left: 0;
     width: 100vw;
-    height:100vh;
+    height:100%;
     z-index: 0;
-    background-color: var(--gradient);
-    visibility: hidden;
-}
-
-@Media(max-width:600px){
-    .background-layer{
-        visibility: visible;
-    }
+    background: var(--gradient); 
+    background-attachment: scroll;
 }
 
 .ui-container{
