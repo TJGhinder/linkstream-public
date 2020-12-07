@@ -15,6 +15,8 @@ export default function LinkStreamFrontPage() {
 
     const fakeSecondLinks = [
         { title: 'A PEACE of Us Vol. 1', url: 'https://a-peace-of-us-vol-1.myshopify.com/', type: 'basic' },
+        { title: 'A PEACE of Us Vol. 2', url: 'https://a-peace-of-us-vol-1.myshopify.com/', type: 'basic' },
+        { title: 'A PEACE of Us Vol. 3', url: 'https://a-peace-of-us-vol-1.myshopify.com/', type: 'basic' },
     ]
 
     //source: https://www.w3schools.com/icons/fontawesome_icons_brand.asp
