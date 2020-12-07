@@ -1,10 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
 import LinkStreamFrontPage from './pages/frontpage/LinkStreamFrontPage';
 
 function App() {
   return (
-    <LinkStreamFrontPage />
+    <div className='app-container'>
+      <LinkStreamFrontPage />
+    </div>
+
   );
 }
 
